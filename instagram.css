@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(233, 229, 229);
+}
+a{
+    text-decoration: none;
+}
+.insanlar{
+    padding-top: 5px;
+    width: 100%;
+    height: 73px;
+    list-style-type: none;
+    
+}
+.clock{
+    padding-top: 10px;
+}
+li{
+    display: inline;
+    cursor: -webkit-grab; cursor: grab;
+}
+.name{
+   position: relative;
+   right: 50px;
+   top: 45px;
+}
+.yorumekle{
+   position: relative;
+   left: 50px;
+   bottom:7px;
+}
+.emoji{
+    position: relative;
+    top: 25px;
+    left: 2px;
+}
+.paylaş{
+    padding-top: 30px;
+}

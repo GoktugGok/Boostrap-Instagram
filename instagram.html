@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+     <link rel="stylesheet" href="instagram.css">
+    <title>Instagram</title>
+  </head>
+  <body>
+    <div>
+  <div class="nav d-flex justify-content-around " style="background-color: rgb(255, 255, 255); border-bottom: 1px solid rgb(192, 186, 186); ">
+       <nav class="navbar navbar-light ">
+        <div class="logo container-fluid">
+            <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" class="ps-2"/></a>
+        </div>
+      </nav>
+      <div class="search">
+        <nav class="navbar navbar-light ">
+        <div class="container-fluid">
+          <form class="d-flex " >
+            <input class="form-control me-2 text-center" style="background-color: rgb(248, 247, 247); width: 250px; height: 30px; margin-top: 7px; opacity:0.6;" type="search" placeholder="Ara" aria-label="Search">
+          <div class="arama png" style="position: relative; right: 173px; top: 8px; ">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg>
+          </div>
+          </form>
+        </div>
+      </nav>
+    </div>
+      <div class=" navbar-sağüst">
+        
+        <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+          
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ">
+              <li class="nav-item p-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="30" fill="currentColor" class="bi bi-house-door " viewBox="0 0 16 16">
+                    <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
+                  </svg>
+              </li>
+              <li class="nav-item p-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="30" fill="currentColor" class="bi bi-messenger " viewBox="0 0 16 16">
+                    <path d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z"/>
+                  </svg>
+              </li>
+              <li class="nav-item p-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="30" fill="currentColor" class="bi bi-compass " viewBox="0 0 16 16">
+                    <path d="M8 16.016a7.5 7.5 0 0 0 1.962-14.74A1 1 0 0 0 9 0H7a1 1 0 0 0-.962 1.276A7.5 7.5 0 0 0 8 16.016zm6.5-7.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+                    <path d="m6.94 7.44 4.95-2.83-2.83 4.95-4.949 2.83 2.828-4.95z"/>
+                  </svg>
+              </li>
+              <li class="nav-item p-2">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" width="27" height="30" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                    <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                  </svg>
+                
+              </li>
+              <li>
+                  <img src="https://i.pravatar.cc/150?img=9" width="40" height="40" alt="" class="" style="border-radius: 20px;">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  </div>
+  <div class="container" >
+      <div class="row ">
+          <div class="col-sm-6 offset-sm-1 mt-3 " >
+            <div class="row">
+              <div class="col-12 mb-3" style="background-color: rgb(255, 255, 255); border: 1px solid rgb(192, 186, 186);">
+                <ul class="insanlar">
+                  <li>
+                    <img src="https://i.pravatar.cc/150?img=27" width="60" height="60" alt="" class="" style="border-radius: 30px; border: solid 2px rgb(255, 180, 41);">
+              <a href="" class="name">Pelin</a>
+                </li>
+                  <li>
+                  <a href=""><img src="https://i.pravatar.cc/150?img=13" width="60" height="60" alt="" class="" style="border-radius: 30px; border: solid 2px rgb(255, 180, 41);"></a>
+                  <a href="" class="name">Can</a>
+                </li>
+                  <li>
+                  <a href=""><img src="https://i.pravatar.cc/150?img=12" width="60" height="60" alt="" class="" style="border-radius: 30px; border: solid 2px rgb(255, 180, 41);"></a>
+                  <a href="" class="name">Mert</a>
+              </li>
+                  <li>
+                 <a href=""><img src="https://i.pravatar.cc/150?img=11" width="60" height="60" alt="" class="" style="border-radius: 30px; border: solid 2px rgb(255, 180, 41);"></a>
+                 <a href="" class="name">Anıl</a>
+              </li>
+                  <li> 
+                  <a href=""><img src="https://i.pravatar.cc/150?img=17" width="60" height="60" alt="" class="" style="border-radius: 30px; border: solid 2px rgb(255, 180, 41);"></a>
+                  <a href="" class="name">Yusuf</a>
+              </li>
+                  <li>
+                  <a href=""><img src="https://i.pravatar.cc/150?img=10" width="60" height="60" alt="" class="" style="border-radius: 30px; border: solid 2px rgb(255, 180, 41);"></a>
+                  <a href="" class="name">Eylül</a>
+              </li>
+              </ul>
+              </div>
+            </div>
+    <div class="post1 row  " style="background-color: rgb(255, 255, 255); border: 1px solid rgb(192, 186, 186);">
+                <div class="col-12  border " >
+                  <div class="row">
+                   <div class="col-sm-6">
+                    <div class="post my-2 ms-2">
+                      <div class="row">
+                        <div class="col-sm-3 ">
+                          <img src="https://media.discordapp.net/attachments/335790525321838603/802210124398592051/006232e3507302915c39a34d4b5d7de7.jpg" width="50" height="50"  style="border-radius: 30px;" alt=""> 
+                        </div>
+                        <div class="col-sm-9 mt-3 ">
+                          <a href=""><h6>Gannicus</h6></a>
+                        </div>
+                      </div>
+                   </div>
+                  </div>
+                <div class="col-sm-6 mt-3">
+                  <div class="icon d-flex flex-row-reverse">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                    <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+                  </svg>
+                   </div>
+                  </div>
+                  
+                </div>
+                
+              </div>
+              
+              <div class="col-12 border ">
+                <img src="resimler/img1.jpg" class="w-100" alt="">
+            </div>
+            <div class="col-12">
+              <div class="row">
+                <div class="col-sm-6 ">
+                  <ul class="pt-3 p-2 ">
+                    <li class="me-3">
+                  <svg aria-label="Beğen" class="_8-yf5 " fill="#262626" height="33" role="img" viewBox="0 0 48 48" width="33"><path d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"></path></svg>
+                </li>
+                <li class="me-3">
+                  <svg aria-label="Yorum Yap" class="_8-yf5 " fill="#262626" height="30" role="img" viewBox="0 0 48 48" width="30"><path clip-rule="evenodd" d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 44.5 12.7 44.5 24z" fill-rule="evenodd"></path></svg>
+                </li>
+                <li class="me-3">
+                  <svg aria-label="Gönderi Paylaş" class="_8-yf5 " fill="#262626" height="30" role="img" viewBox="0 0 48 48" width="30"><path d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 6.1h35.5L18 18.7 5.2 6.1zm18.7 33.6l-4.4-18.4L42.4 8.6 23.9 39.7z"></path></svg>
+                </li>
+                </ul>
+                </div>
+                <div class="col-sm-6 d-flex flex-row-reverse">
+                  <svg aria-label="Kaydet" class="_8-yf5 mt-3 me-2"  fill="#262626" height="33" role="img" viewBox="0 0 48 48" width="33"><path d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 1.4-.9 2.2-.9z"></path></svg>
+                </div>
+              </div>
+            
+          <div class="row">
+              <div class="col-12">
+                <p class="ps-2 fw-bolder">487 Beğenme</p>
+              <ul class="p-0">
+                <li><p class="yorum ps-2">
+                   <a href=""class="fw-bolder text-dark"> Pelin</a> diger sekilde yapsam nolurdu acaba diye düşündüğüm şeyler cok
+                </p>
+              </li>
+              <a class="pt-3 ps-3 fw-light text-dark"><span>120</span> yorumun tümünü gör</a>
+              <li><p class="yorum ps-2">
+                  <a href=""class="fw-bolder text-dark"> Ahmet</a> Lorem ipsum, dolor sit amet consectetur adipisicing.
+               </p></li>
+              <li><p class="yorum ps-2">
+                <a href=""class="fw-bolder text-dark"> Mert</a> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, asperiores!
+             </p></li>
+                 
+            </ul>
+            <span class="saat ps-2 fs-6 fw-light text-dark " style="font-size:5;">18 SAAT ÖNCE</span>
+          </div>  
+            </div>
+              <div class="row">
+                <div class="col-sm-12 border">
+                  <div class="row">
+                    <div class="col-sm-6 my-3 "  >
+                      <div class="emoji">
+                      <svg aria-label="İfade Simgesi" class="_8-yf5 "  fill="#262626" height="33" role="img" viewBox="0 0 48 48" width="33" ><path d="M24 48C10.8 48 0 37.2 0 24S10.8 0 24 0s24 10.8 24 24-10.8 24-24 24zm0-45C12.4 3 3 12.4 3 24s9.4 21 21 21 21-9.4 21-21S35.6 3 24 3z"></path><path d="M34.9 24c0-1.4-1.1-2.5-2.5-2.5s-2.5 1.1-2.5 2.5 1.1 2.5 2.5 2.5 2.5-1.1 2.5-2.5zm-21.8 0c0-1.4 1.1-2.5 2.5-2.5s2.5 1.1 2.5 2.5-1.1 2.5-2.5 2.5-2.5-1.1-2.5-2.5zM24 37.3c-5.2 0-8-3.5-8.2-3.7-.5-.6-.4-1.6.2-2.1.6-.5 1.6-.4 2.1.2.1.1 2.1 2.5 5.8 2.5 3.7 0 5.8-2.5 5.8-2.5.5-.6 1.5-.7 2.1-.2.6.5.7 1.5.2 2.1 0 .2-2.8 3.7-8 3.7z"></path></svg>
+                    </div>
+                    <div class="yorumekle">
+                      <textarea aria-label="Yorum ekle..." placeholder="Yorum ekle..."  class="Ypffh" autocomplete="off" autocorrect="off" style="height: 33px !important; width: 500px; "></textarea>
+                    </div>
+                  </div>
+                    <div class="col-sm-6 d-flex flex-row-reverse">
+                      <div class="paylaş">
+                      <button class=" " disabled="" style=" height: 50px;" type="submit">Paylaş</button>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+    </div>
+
+    <div class="post2 row mt-3 " style="background-color: rgb(255, 255, 255); border: 1px solid rgb(192, 186, 186);">
+            <div class="col-12  border " >
+              <div class="row">
+               <div class="col-sm-6">
+                <div class="post my-2 ms-2">
+                  <div class="row">
+                    <div class="col-sm-3 ">
+                      <img src="https://i.pravatar.cc/150?img=27" width="50" height="50"  style="border-radius: 30px;" alt=""> 
+                    </div>
+                    <div class="col-sm-9 mt-3 pe-2 ">
+                      <a href=""><h6>Pelin</h6></a>
+                    </div>
+                  </div>
+               </div>
+              </div>
+            <div class="col-sm-6 mt-3">
+              <div class="icon d-flex flex-row-reverse">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+                <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+              </svg>
+               </div>
+              </div>
+              
+            </div>
+            
+          </div>
+          <div class="col-12 border ">
+            <img src="https://picsum.photos/id/237/300/300" class="w-100" alt="">
+        </div>
+        <div class="col-12">
+          <div class="row">
+            <div class="col-sm-6 ">
+              <ul class="pt-3 p-2 ">
+                <li class="me-3">
+              <svg aria-label="Beğen" class="_8-yf5 " fill="#262626" height="33" role="img" viewBox="0 0 48 48" width="33"><path d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"></path></svg>
+            </li>
+            <li class="me-3">
+              <svg aria-label="Yorum Yap" class="_8-yf5 " fill="#262626" height="30" role="img" viewBox="0 0 48 48" width="30"><path clip-rule="evenodd" d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 44.5 12.7 44.5 24z" fill-rule="evenodd"></path></svg>
+            </li>
+            <li class="me-3">
+              <svg aria-label="Gönderi Paylaş" class="_8-yf5 " fill="#262626" height="30" role="img" viewBox="0 0 48 48" width="30"><path d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 6.1h35.5L18 18.7 5.2 6.1zm18.7 33.6l-4.4-18.4L42.4 8.6 23.9 39.7z"></path></svg>
+            </li>
+            </ul>
+            </div>
+            <div class="col-sm-6 d-flex flex-row-reverse">
+              <svg aria-label="Kaydet" class="_8-yf5 mt-3 me-2"  fill="#262626" height="33" role="img" viewBox="0 0 48 48" width="33"><path d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 1.4-.9 2.2-.9z"></path></svg>
+            </div>
+          </div>
+        
+      <div class="row">
+          <div class="col-12">
+            <p class="ps-2 fw-bolder">487 Beğenme</p>
+          <ul class="p-0">
+            <li><p class="yorum ps-2">
+               <a href=""class="fw-bolder text-dark"> Gannicus</a> diger sekilde yapsam nolurdu acaba diye düşündüğüm şeyler cok
+            </p>
+          </li>
+          <a class="pt-3 ps-3 fw-light text-dark"><span>120</span> yorumun tümünü gör</a>
+          <li><p class="yorum ps-2">
+              <a href=""class="fw-bolder text-dark"> Ahmet</a> Lorem ipsum, dolor sit amet consectetur adipisicing.
+           </p></li>
+          <li><p class="yorum ps-2">
+            <a href=""class="fw-bolder text-dark"> Mert</a> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, asperiores!
+         </p></li>
+             
+        </ul>
+        <span class="saat ps-2 fs-6 fw-light text-dark " style="font-size:5;">18 SAAT ÖNCE</span>
+      </div>  
+        </div>
+          <div class="row">
+            <div class="col-sm-12 border">
+              <div class="row">
+                <div class="col-sm-6 my-3 "  >
+                  <div class="emoji">
+                  <svg aria-label="İfade Simgesi" class="_8-yf5 "  fill="#262626" height="33" role="img" viewBox="0 0 48 48" width="33" ><path d="M24 48C10.8 48 0 37.2 0 24S10.8 0 24 0s24 10.8 24 24-10.8 24-24 24zm0-45C12.4 3 3 12.4 3 24s9.4 21 21 21 21-9.4 21-21S35.6 3 24 3z"></path><path d="M34.9 24c0-1.4-1.1-2.5-2.5-2.5s-2.5 1.1-2.5 2.5 1.1 2.5 2.5 2.5 2.5-1.1 2.5-2.5zm-21.8 0c0-1.4 1.1-2.5 2.5-2.5s2.5 1.1 2.5 2.5-1.1 2.5-2.5 2.5-2.5-1.1-2.5-2.5zM24 37.3c-5.2 0-8-3.5-8.2-3.7-.5-.6-.4-1.6.2-2.1.6-.5 1.6-.4 2.1.2.1.1 2.1 2.5 5.8 2.5 3.7 0 5.8-2.5 5.8-2.5.5-.6 1.5-.7 2.1-.2.6.5.7 1.5.2 2.1 0 .2-2.8 3.7-8 3.7z"></path></svg>
+                </div>
+                <div class="yorumekle">
+                  <textarea aria-label="Yorum ekle..." placeholder="Yorum ekle..."  class="Ypffh" autocomplete="off" autocorrect="off" style="height: 33px !important; width: 500px; "></textarea>
+                </div>
+              </div>
+                <div class="col-sm-6 d-flex flex-row-reverse">
+                  <div class="paylaş">
+                  <button class=" " disabled="" style=" height: 50px;" type="submit">Paylaş</button>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="post3 row mt-3 " style="background-color: rgb(255, 255, 255); border: 1px solid rgb(192, 186, 186);">
+        <div class="col-12  border " >
+          <div class="row">
+           <div class="col-sm-6">
+            <div class="post my-2 ms-2">
+              <div class="row">
+                <div class="col-sm-3 ">
+                  <img src="https://i.pravatar.cc/150?img=12" width="50" height="50"  style="border-radius: 30px;" alt=""> 
+                </div>
+                <div class="col-sm-9 mt-3  ">
+                  <a href="" ><h6>Mert</h6></a>
+                </div>
+              </div>
+           </div>
+          </div>
+        <div class="col-sm-6 mt-3">
+          <div class="icon d-flex flex-row-reverse">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+            <path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+          </svg>
+           </div>
+          </div>
+          
+        </div>
+        
+      </div>
+      <div class="col-12 border ">
+        <img src="https://picsum.photos/id/390/300/300" class="w-100" alt="">
+    </div>
+    <div class="col-12">
+      <div class="row">
+        <div class="col-sm-6 ">
+          <ul class="pt-3 p-2 ">
+            <li class="me-3">
+          <svg aria-label="Beğen" class="_8-yf5 " fill="#262626" height="33" role="img" viewBox="0 0 48 48" width="33"><path d="M34.6 6.1c5.7 0 10.4 5.2 10.4 11.5 0 6.8-5.9 11-11.5 16S25 41.3 24 41.9c-1.1-.7-4.7-4-9.5-8.3-5.7-5-11.5-9.2-11.5-16C3 11.3 7.7 6.1 13.4 6.1c4.2 0 6.5 2 8.1 4.3 1.9 2.6 2.2 3.9 2.5 3.9.3 0 .6-1.3 2.5-3.9 1.6-2.3 3.9-4.3 8.1-4.3m0-3c-4.5 0-7.9 1.8-10.6 5.6-2.7-3.7-6.1-5.5-10.6-5.5C6 3.1 0 9.6 0 17.6c0 7.3 5.4 12 10.6 16.5.6.5 1.3 1.1 1.9 1.7l2.3 2c4.4 3.9 6.6 5.9 7.6 6.5.5.3 1.1.5 1.6.5.6 0 1.1-.2 1.6-.5 1-.6 2.8-2.2 7.8-6.8l2-1.8c.7-.6 1.3-1.2 2-1.7C42.7 29.6 48 25 48 17.6c0-8-6-14.5-13.4-14.5z"></path></svg>
+        </li>
+        <li class="me-3">
+          <svg aria-label="Yorum Yap" class="_8-yf5 " fill="#262626" height="30" role="img" viewBox="0 0 48 48" width="30"><path clip-rule="evenodd" d="M47.5 46.1l-2.8-11c1.8-3.3 2.8-7.1 2.8-11.1C47.5 11 37 .5 24 .5S.5 11 .5 24 11 47.5 24 47.5c4 0 7.8-1 11.1-2.8l11 2.8c.8.2 1.6-.6 1.4-1.4zm-3-22.1c0 4-1 7-2.6 10-.2.4-.3.9-.2 1.4l2.1 8.4-8.3-2.1c-.5-.1-1-.1-1.4.2-1.8 1-5.2 2.6-10 2.6-11.4 0-20.6-9.2-20.6-20.5S12.7 3.5 24 3.5 44.5 12.7 44.5 24z" fill-rule="evenodd"></path></svg>
+        </li>
+        <li class="me-3">
+          <svg aria-label="Gönderi Paylaş" class="_8-yf5 " fill="#262626" height="30" role="img" viewBox="0 0 48 48" width="30"><path d="M47.8 3.8c-.3-.5-.8-.8-1.3-.8h-45C.9 3.1.3 3.5.1 4S0 5.2.4 5.7l15.9 15.6 5.5 22.6c.1.6.6 1 1.2 1.1h.2c.5 0 1-.3 1.3-.7l23.2-39c.4-.4.4-1 .1-1.5zM5.2 6.1h35.5L18 18.7 5.2 6.1zm18.7 33.6l-4.4-18.4L42.4 8.6 23.9 39.7z"></path></svg>
+        </li>
+        </ul>
+        </div>
+        <div class="col-sm-6 d-flex flex-row-reverse">
+          <svg aria-label="Kaydet" class="_8-yf5 mt-3 me-2"  fill="#262626" height="33" role="img" viewBox="0 0 48 48" width="33"><path d="M43.5 48c-.4 0-.8-.2-1.1-.4L24 29 5.6 47.6c-.4.4-1.1.6-1.6.3-.6-.2-1-.8-1-1.4v-45C3 .7 3.7 0 4.5 0h39c.8 0 1.5.7 1.5 1.5v45c0 .6-.4 1.2-.9 1.4-.2.1-.4.1-.6.1zM24 26c.8 0 1.6.3 2.2.9l15.8 16V3H6v39.9l15.8-16c.6-.6 1.4-.9 2.2-.9z"></path></svg>
+        </div>
+      </div>
+    
+  <div class="row">
+      <div class="col-12">
+        <p class="ps-2 fw-bolder">487 Beğenme</p>
+      <ul class="p-0">
+        <li><p class="yorum ps-2">
+           <a href=""class="fw-bolder text-dark"> Pelin</a> diger sekilde yapsam nolurdu acaba diye düşündüğüm şeyler cok
+        </p>
+      </li>
+      <a class="pt-3 ps-3 fw-light text-dark"><span>120</span> yorumun tümünü gör</a>
+      <li><p class="yorum ps-2">
+          <a href=""class="fw-bolder text-dark"> Ahmet</a> Lorem ipsum, dolor sit amet consectetur adipisicing.
+       </p></li>
+      <li><p class="yorum ps-2">
+        <a href=""class="fw-bolder text-dark"> Can</a> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, asperiores!
+     </p></li>
+         
+    </ul>
+    <span class="saat ps-2 fs-6 fw-light text-dark " style="font-size:5;">18 SAAT ÖNCE</span>
+  </div>  
+    </div>
+      <div class="row">
+        <div class="col-sm-12 border">
+          <div class="row">
+            <div class="col-sm-6 my-3 "  >
+              <div class="emoji">
+              <svg aria-label="İfade Simgesi" class="_8-yf5 "  fill="#262626" height="33" role="img" viewBox="0 0 48 48" width="33" ><path d="M24 48C10.8 48 0 37.2 0 24S10.8 0 24 0s24 10.8 24 24-10.8 24-24 24zm0-45C12.4 3 3 12.4 3 24s9.4 21 21 21 21-9.4 21-21S35.6 3 24 3z"></path><path d="M34.9 24c0-1.4-1.1-2.5-2.5-2.5s-2.5 1.1-2.5 2.5 1.1 2.5 2.5 2.5 2.5-1.1 2.5-2.5zm-21.8 0c0-1.4 1.1-2.5 2.5-2.5s2.5 1.1 2.5 2.5-1.1 2.5-2.5 2.5-2.5-1.1-2.5-2.5zM24 37.3c-5.2 0-8-3.5-8.2-3.7-.5-.6-.4-1.6.2-2.1.6-.5 1.6-.4 2.1.2.1.1 2.1 2.5 5.8 2.5 3.7 0 5.8-2.5 5.8-2.5.5-.6 1.5-.7 2.1-.2.6.5.7 1.5.2 2.1 0 .2-2.8 3.7-8 3.7z"></path></svg>
+            </div>
+            <div class="yorumekle">
+              <textarea aria-label="Yorum ekle..." placeholder="Yorum ekle..."  class="Ypffh" autocomplete="off" autocorrect="off" style="height: 33px !important; width: 500px; "></textarea>
+            </div>
+          </div>
+            <div class="col-sm-6 d-flex flex-row-reverse">
+              <div class="paylaş">
+              <button class=" " disabled="" style=" height: 50px;" type="submit">Paylaş</button>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+  </div>
+    </div>
+          
+          </div>       
+        <div class="col-sm-4 border mt-3 ms-3" style="background-color: rgb(228, 227, 227); height: 400px;">
+          
+            <div class="row">
+              <div class="col-12">
+                <div style="height: 80px; ">
+                <img src="https://i.pravatar.cc/150?img=9" width="60" height="60"  style="border-radius: 30px; margin-top: 15px; margin-left: 5px;" alt=""> 
+                <name class="fw-bold ms-4 ">Melis</name>
+                <p style="position: relative; left: 93px; bottom: 30px;">Mels56_ss</p>
+                <a href="" class="d-flex justify-content-end" style="position: relative; bottom: 79px; right: 5px;">Geçiş yap</a>
+              </div>
+              <div class="kisiler " style="height: 30px;">
+                 <p class="mt-2 fw-light ms-2">Senin İçin Öneriler</p>
+                 <a href="" class="d-flex justify-content-end text-dark" style="position: relative ; bottom: 40px;">Tümünü gör</a>
+              </div>
+              <div>
+              
+                <li><div style="height: 90px; ">
+                <img src="https://i.pravatar.cc/150?img=20" width="40" height="40"  style="border-radius: 30px; margin-top: 15px; margin-left: 20px;" alt=""> 
+                <name class="fw-bold ms-4 ">
+                  basskardesim</name>
+                <p style="position: relative; left: 90px; bottom: 20px;">Instagram'da Yeni</p>
+                <a href="" class="d-flex justify-content-end" style="position: relative; bottom: 81px; right: 5px;">Takip Et</a>
+              </div>
+            </li>
+                <li>
+                  <div style="height: 90px; ">
+                    <img src="https://i.pravatar.cc/150?img=26" width="40" height="40"  style="border-radius: 30px; margin-top: 15px; margin-left: 20px;" alt=""> 
+                    <name class="fw-bold ms-4 ">allykardesimaynen</name>
+                    <p style="position: relative; left: 90px; bottom: 20px;">yasarrmericc + 1 diğer kişi takip ediyo..</p>
+                    <a href="" class="d-flex justify-content-end" style="position: relative; bottom: 81px; right: 5px;">Takip Et</a>
+                  </div>
+                </li>
+                <li>
+                  <div style="height: 90px; ">
+                    <img src="https://i.pravatar.cc/150?img=30" width="40" height="40"  style="border-radius: 30px; margin-top: 15px; margin-left: 20px;" alt=""> 
+                    <name class="fw-bold ms-4 ">
+                      burak.uzerr</name>
+                    <p style="position: relative; left: 90px; bottom: 20px;">eyluul.koc + 3 diğer kişi takip ediyor</p>
+                    <a href="" class="d-flex justify-content-end" style="position: relative; bottom: 80px; right: 5px;">Takip Et</a>
+                  </div>
+                </li>
+          </div>
+          <div class="clock">
+            <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-alarm" viewBox="0 0 16 16">
+                <path d="M8.5 5.5a.5.5 0 0 0-1 0v3.362l-1.429 2.38a.5.5 0 1 0 .858.515l1.5-2.5A.5.5 0 0 0 8.5 9V5.5z"/>
+                <path d="M6.5 0a.5.5 0 0 0 0 1H7v1.07a7.001 7.001 0 0 0-3.273 12.474l-.602.602a.5.5 0 0 0 .707.708l.746-.746A6.97 6.97 0 0 0 8 16a6.97 6.97 0 0 0 3.422-.892l.746.746a.5.5 0 0 0 .707-.708l-.601-.602A7.001 7.001 0 0 0 9 2.07V1h.5a.5.5 0 0 0 0-1h-3zm1.038 3.018a6.093 6.093 0 0 1 .924 0 6 6 0 1 1-.924 0zM0 3.5c0 .753.333 1.429.86 1.887A8.035 8.035 0 0 1 4.387 1.86 2.5 2.5 0 0 0 0 3.5zM13.5 1c-.753 0-1.429.333-1.887.86a8.035 8.035 0 0 1 3.527 3.527A2.5 2.5 0 0 0 13.5 1z"/>
+              </svg>
+            </button>
+            <p id="demo"></p>
+          </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
